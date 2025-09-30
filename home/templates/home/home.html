@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div class="desc">
+        <h1 id="grande">facebook</h1>
+        <section class="texto">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        </section>
+    </div>
+    <section class="int">
+        <input type="email" name="usuario" id="user" placeholder="Email">
+        <br>
+        <input type="password" name="senha" id="senha"placeholder="Senha" class="senha">
+        <button id="entrar">Entrar</button>
+    </section>
+    
+</body>
+</html>
